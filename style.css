@@ -28,11 +28,12 @@ nav{
     padding-right: 3%;
     width: 55%;
     justify-content: space-around;
+    font-size: 100%;
 }
 
 header img{
   position: relative;
-  height: 110%;
+  height: 98%;
   flex-shrink: 0;
   padding-left: 3%;
   
