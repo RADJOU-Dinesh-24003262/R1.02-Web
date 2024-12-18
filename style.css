@@ -13,3 +13,41 @@ header {
     top: 0;
     width: 100%;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    width: 412px;
+    height: 71px;
+    padding: 0px 15px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
