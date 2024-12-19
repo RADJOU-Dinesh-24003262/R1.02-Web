@@ -1,10 +1,15 @@
 h1{
-
+    display: flex;
+    justify-content: center;
 }
 
 body{
+    background: #FAF9F1;
     display: flex;
     margin: 0;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 header{
@@ -71,5 +76,75 @@ header img{
   
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 5%;
+    max-width: 90%;
+    top: 50px;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
 
+.text{
+    border: 1px solid #a9b1b8;
+    border-radius: 0.5rem;
+    background: var(--Surface-Light, #F8FAFC);
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+form label{
+
+    color: var(--Text-Secondary---Grey2, #6F7482);
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.01rem;
+}
+
+form fieldset label{
+    color: var(--Text-Primary---Basic, #3B4256);
+    line-height: 140%;
+}
+
+#envoyer{
+    width: 25%;
+    border-radius: 0.5rem;
+    background: #D1323D;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+}
+
+
+#effacer{
+    width: 15%;
+    border-radius: 0.5rem;
+    border: 1px solid #D1323D;
+    background: var(--W-Background, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    display: flex;
+    width: 4.6875rem;
+    padding: 1rem;
+    margin-inline: auto;
+}

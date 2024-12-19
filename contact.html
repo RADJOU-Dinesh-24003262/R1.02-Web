@@ -18,31 +18,58 @@
         <a id="active" href="/contact.html">Contact</a>
       </nav>
     </header>
+    
     <section>
       <h1>Contact Us</h1>
       <form id="form" action="mailto:kfc.support@kfc.fr?content-type=text/html&amp;subject=Contact%20Us" method="post" enctype="text/plain">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <textarea name="impression" rows="5" cols="50">Donnez vos impressions sur le site...</textarea><br>
-        <input type="submit" value="Submit">
+        <label for="fname">Nom :</label>
+        <input class="text" type="text" id="fname" name="fname" placeholder="Mickaël" required="required"><br>
+
+        <label for="lname">Prenom :</label>
+        <input class="text" type="text" id="lname" name="lname" placeholder="Martin-Nevot" required="required"><br>
+
+        <label for="mail">E-mail :</label>
+        <input class="text" type="email" id="mail" name="mail" placeholder="mickael.martin-nevot@gmail.com" required="required"><br>
+
+        
+        <fieldset>
+          <legend>Pourquoi nous contacter ?</legend>
+            <input type="checkbox" id="securite_alimentaire" name="interest" value="securite_alimentaire">
+            <label for="securite_alimentaire">à propos de la sécurité alimentaire</label> <br>
+
+            <input type="checkbox" id="qualite_produit" name="interest" value="qualite_produit">
+            <label for="qualite_produit">Sur la qualité des produits</label><br>
+
+            <input type="checkbox" id="commande_probleme" name="interest" value="commande_probleme">
+            <label for="commande_probleme">Problème de commande (erreur, manque, etc.)</label><br>
+
+            <input type="checkbox" id="amelioration" name="interest" value="amelioration">
+            <label for="amelioration">Suggestions ou idées d'amélioration</label><br>
+
+            <input type="checkbox" id="provenance" name="interest" value="provenance">
+            <label for="provenance">Questions sur les ingrédients ou provenance des produits</label><br>
+
+            <input type="checkbox" id="service_client" name="interest" value="service_client">
+            <label for="service_client">Service client (réclamation ou satisfaction)</label><br>
+
+            <input type="checkbox" id="emploi" name="interest" value="emploi">
+            <label for="emploi">Demande d'emploi ou stage</label><br>
+
+            <input type="checkbox" id="autres" name="interest" value="autres">
+            <label for="autres">Autres préoccupations ou demandes</label><br>
+        </fieldset>
+        <br>
+
+        <label for="avis">Vos Commentaires :</label>
+        <textarea class="text" id="avis" name="avis" rows="5" cols="50" required="required" placeholder="Votre Avis..."></textarea><br>
+
+        <input id="envoyer" type="submit" value="Go"><br>
+        <input id="effacer" type="reset" value="Effacer">
+
       </form> 
 
-
-
-      <form id="form" action="mailto:my@e-mail?content-type=text/html&amp;subject=Site%20Web" method="post" enctype="text/plain">
-        <p>
-          <label for="prenom">Prénom</label>
-          <input id="prenom" type="text" name="prenom" value=" ">
-          <label for="nom">Nom</label>
-          <input id="nom" type="text" name="nom" value=" "><br>
-          <input id="sexeHomme" type="radio" name="sexe" value="homme">
-          <label for="sexeHomme">Homme</label> 
-          <input id="sexeFemme" type="radio" name="sexe" value="femme">
-          <label for="sexeFemme">Femme</label><br>
-          
-        </p>
-      </form>
     </section>
+
+
+
   </body>
