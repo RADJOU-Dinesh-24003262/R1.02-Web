@@ -18,6 +18,7 @@ header{
     width: 100%;
     height: 8%;
     margin: 0;
+    min-height: 40px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -41,34 +42,37 @@ nav{
 
 nav a {
     padding: 1%;
-    color: black;
+    color: #FAF9F1;
     text-decoration: none;
     display: inline-block;
     position: relative;
+    margin: 3px;
 }
 
 #active{
-    color: #123455;
+    color: #C9F909;
 }
 
-nav a::after {
-    content: '';
+
+/* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
+nav a:after {
+    content: "";
     position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #FC0000;
-    transform-origin: bottom right;
-    transition: transform 0.35s ease-out;
-    
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 2px;
 }
-  
+
 nav a:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+    width: 100%;
+    height: 1px;
+    background-color:#FFF;
 }
+
+
+
 
 header img{
   position: relative;
@@ -84,8 +88,10 @@ section{
     position: relative;
     margin-top: 3%;
     max-width: 90%;
+    min-width: 30%;
     top: 70px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 footer{
@@ -97,6 +103,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 50px;
 }
 
 
@@ -113,22 +120,34 @@ form{
 }
 
 form label{
-
-    color: var(--Text-Secondary---Grey2, #6F7482);
+    color: var(--Text-Secondary---Grey2, #595D69);
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.01rem;
 }
 
+
+
+form fieldset input{
+    margin: 5px;
+    cursor: pointer;
+}
+
 form fieldset label{
+    top: -2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
     color: var(--Text-Primary---Basic, #3B4256);
     line-height: 140%;
+    margin: 5px;
 }
 
 #envoyer{
     width: 25%;
+    color: #FAF9F1;
     border-radius: 0.5rem;
-    background: #D1323D;
+    background: #EB212F;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     display: inline-flex;
     padding: 1rem;
