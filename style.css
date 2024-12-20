@@ -41,12 +41,13 @@ nav{
 }
 
 nav a {
-    padding: 1%;
+    padding-bottom: 1%;
     color: #FAF9F1;
     text-decoration: none;
     display: inline-block;
     position: relative;
-    margin: 3px;
+    margin-top: 3px;
+    margin-left: 5%;
 }
 
 #active{
@@ -62,7 +63,7 @@ nav a:after {
     height: 1px;
     display: block;
     transition: all 0.3s ease;
-    bottom: 2px;
+    bottom: 1px;
 }
 
 nav a:hover::after {
@@ -132,7 +133,7 @@ form fieldset{
 }
 
 form fieldset input{
-    margin: 5px;
+    margin-left: 4%;
     cursor: pointer;
     margin-right: 5px;
 }
