@@ -133,7 +133,7 @@ form fieldset{
 }
 
 form fieldset input{
-    margin-left: 4%;
+    margin: 2%;
     cursor: pointer;
 }
 
