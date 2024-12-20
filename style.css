@@ -135,7 +135,6 @@ form fieldset{
 form fieldset input{
     margin-left: 4%;
     cursor: pointer;
-    margin-right: 5px;
 }
 
 form fieldset label{
@@ -145,7 +144,7 @@ form fieldset label{
     cursor: pointer;
     color: var(--Text-Primary---Basic, #3B4256);
     line-height: 140%;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 #envoyer{
