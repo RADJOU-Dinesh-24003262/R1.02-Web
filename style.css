@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background: #8E4611;
     position: fixed;
     
@@ -31,12 +31,12 @@ header{
 
 nav{
     display: flex;
-    width: 60%;
+    min-width: 50%;
     padding-right: 2%;
-    right: 30px;
+    right: 30px;    
     max-width: 800px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 100%;
 }
 
@@ -46,8 +46,14 @@ nav a {
     text-decoration: none;
     display: inline-block;
     position: relative;
-    margin-top: 3px;
-    margin-left: 5%;
+    margin: 2.5px;
+    margin-left: 10px;
+}
+
+@media (max-width : 401px) and ( min-width : 327px )     {
+    nav{
+        flex-basis: 60%;
+    }
 }
 
 #active{
@@ -111,7 +117,7 @@ form{
 .text{
     border: 1px solid #a9b1b8;
     border-radius: 0.5rem;
-    background: var(--Surface-Light, #F8FAFC);
+    background: #F8FAFC;
     display: flex;
     padding: 0.75rem;
     flex-direction: column;
@@ -121,7 +127,7 @@ form{
 }
 
 form label{
-    color: var(--Text-Secondary---Grey2, #595D69);
+    color: #595D69;
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 0.01rem;
@@ -142,7 +148,7 @@ form fieldset label{
     
     top: -2px;
     cursor: pointer;
-    color: var(--Text-Primary---Basic, #3B4256);
+    color: #3B4256;
     line-height: 140%;
     padding-left: 10%;
 }
@@ -171,7 +177,7 @@ form fieldset label{
 #effacer{
     border-radius: 0.5rem;
     border: 1px solid #D1323D;
-    background: var(--W-Background, #FFF);
+    background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
     display: flex;
     width: 4.6875rem;
