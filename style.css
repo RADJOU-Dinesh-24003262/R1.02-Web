@@ -50,7 +50,7 @@ nav a {
     margin-left: 10px;
 }
 
-@media (max-width : 440px) and ( min-width : 327px )     {
+@media (max-width : 435px) and ( min-width : 327px )     {
     nav{
         flex-basis: 60%;
     }
