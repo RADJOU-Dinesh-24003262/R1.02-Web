@@ -220,8 +220,19 @@ footer #cc{
     min-width: 90px;
 }
 
+partenaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
 
-
+partenaire #image {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    max-width: 360px;
+}
 
 
 
