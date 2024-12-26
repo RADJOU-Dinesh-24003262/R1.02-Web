@@ -97,9 +97,10 @@ section{
     margin-top: 3%;
     max-width: 95%;
     min-width: 30%;
-    top: 70px;
+    top: 50px;
     justify-content: center;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 
@@ -283,7 +284,11 @@ svg text {
     stroke: #904711;
     font-size: 500%;
     
-} 
+}
+
+svg #name_desktop{
+    display: none;
+}
 
 @keyframes stroke {
     0%{
@@ -310,5 +315,20 @@ svg text {
     stroke-dashoffset: -25%;
     stroke-dasharray: 50% 0; 
     stroke-width: 0;
+    }
+}
+
+
+@media (min-width : 750px) {
+    svg #name_desktop{
+        display: inline;
+    }
+
+    svg #name_mobile{
+        display: none;
+    }
+
+    svg{
+        width: 250%;
     }
 }
