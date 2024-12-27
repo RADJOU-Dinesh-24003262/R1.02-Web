@@ -239,6 +239,7 @@ footer img{
     width: 20px;
     height: 20px;
     background-color: #8E4611;
+    color: #F8FAFC;
     border-radius: 10px;
 }
 
@@ -255,6 +256,8 @@ partenaire #image {
     width: 80%;
     max-width: 360px;
 }
+
+
 
 
 
