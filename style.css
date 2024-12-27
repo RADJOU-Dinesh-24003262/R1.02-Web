@@ -3,6 +3,10 @@ h1{
     justify-content: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #FAF9F1;
     display: flex;
@@ -194,7 +198,6 @@ footer{
     width: 80%;
     background: #8E4611;
     padding: 0px 10% 0px 10%;
-    margin-top: 50px;
 }
 
 footer p{
@@ -223,6 +226,20 @@ footer #cc{
 
 footer img{
     margin: 5px 5px 5px 5px;
+}
+
+#ancre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 10px 10px 10px 88%;
+    padding: 10px 10px 10px 10px;
+    bottom: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #8E4611;
+    border-radius: 10px;
 }
 
 partenaire {
