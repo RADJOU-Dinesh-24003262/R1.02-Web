@@ -24,6 +24,7 @@ header{
     height: 8%;
     margin: 0;
     min-height: 40px;
+    max-height: 120px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -88,7 +89,7 @@ nav a:hover::after {
 
 header img{
   position: relative;
-  height: 98%;
+  max-height: 98%;
   flex-shrink: 0;
   padding-left: 3%;
   
@@ -210,18 +211,12 @@ footer p{
 footer #amu{
     display: flex;
     margin: 5px 10px 5px 10px ;
-    width: 10%;
-    max-width: 90px;
     border-radius: 50%;
-    min-width: 70px;
 }
 
 footer #cc{
     display: flex;
     margin: 5px 10px 5px 10px ;
-    width: 15%;
-    max-width: 115px;
-    min-width: 90px;
 }
 
 footer img{
@@ -241,6 +236,7 @@ footer img{
     background-color: #8E4611;
     color: #F8FAFC;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 partenaire {
@@ -258,7 +254,11 @@ partenaire #image {
 }
 
 
-
+iframe{
+    width : 90%;
+    height: 90%;
+    border: 0px;;
+}
 
 
 /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
@@ -353,6 +353,6 @@ svg #name_desktop{
     }
 
     svg{
-        width: 250%;
+        width: 175%;
     }
 }
