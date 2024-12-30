@@ -248,14 +248,15 @@ partenaire {
 #image {
     display: flex;
     justify-content: flex-start;
-    width: 80%;
+    width: 90%;
     max-width: 360px;
+    min-width: 200px;
 }
 
 #paragraphe {
     display: flex;
     height: 109px;
-    padding: 6px 12px;
+    padding: 10px 12px;
     align-items: flex-start;
     gap: 10px;
     align-self: stretch;
