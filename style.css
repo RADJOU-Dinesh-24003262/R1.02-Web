@@ -245,15 +245,14 @@ partenaire {
     align-items: center;
     gap: 28px;
 }
-
-partenaire #image {
+#image {
     display: flex;
     justify-content: flex-start;
     width: 80%;
     max-width: 360px;
 }
 
-partenaire #article {
+#paragraphe {
     display: flex;
     height: 109px;
     padding: 6px 12px;
@@ -264,7 +263,7 @@ partenaire #article {
     background: #C4BEB6;
 }
 
-partenaire #Titre {
+#Titre {
     display: flex;
     height: 28px;
     padding: 2px 12px;
@@ -286,6 +285,31 @@ Texte {
     gap: 7px;
 }
 
+
+menu {
+    display: flex;
+    width: 366px;
+    height: 133px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+menu #imageM {
+    width: 140px;
+    height: 134px;
+    flex-shrink: 0;
+    border-radius: 37px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+menu #TexteM {
+    width: 248px;
+    height: 113px;
+    flex-shrink: 0;
+}
 
 iframe{
     border: 0px;
