@@ -1,8 +1,7 @@
 h1{
     display: flex;
     justify-content: center;
-    top: 75px;
-    position: relative;
+    width: 100%;
 }
 
 html{
@@ -159,6 +158,8 @@ article img{
 a{
     display: flex;
     justify-content: center;
+    text-decoration-line: none;
+    color: #8E4611;
 }
 
 

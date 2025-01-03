@@ -1,8 +1,6 @@
 h1{
     display: flex;
     justify-content: center;
-    top: 75px;
-    position: relative;
 }
 
 html{
