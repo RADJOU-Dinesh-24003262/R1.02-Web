@@ -114,8 +114,10 @@ section{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 800px;
-    margin: 40px 10px 40px 10px;
+    
+    gap: 10px;
+    max-width: 480px;
+    margin: 20px 10px 20px 10px;
  }
 
 article img{
@@ -123,7 +125,6 @@ article img{
     justify-content: center;
     padding: 13px 6px;
     align-items: center;
-    gap: 10px;
     max-width: auto;
     aspect-ratio: 1/1;
     height: 100%;
@@ -132,19 +133,19 @@ article img{
 
 article p{
     display: flex;
-    max-width: 500px;
     padding: 10px 12px;
     align-items: flex-start;
     align-self: stretch;
     border-radius: 28px;
     background: #C4BEB6;
-    max-width: 200px;
+    max-width: 230px;
 }
 
 h2{
     display: flex;
     height: 28px;
     width: 60%;
+    min-width: 150px;
     padding: 2px 2px;
     margin: 0 0 0 0;
     align-items: center;
