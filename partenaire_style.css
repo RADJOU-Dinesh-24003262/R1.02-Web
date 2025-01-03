@@ -1,6 +1,8 @@
 h1{
     display: flex;
     justify-content: center;
+    top: 75px;
+    position: relative;
 }
 
 html{
@@ -95,7 +97,7 @@ header img{
 
 section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
     margin-top: 3%;
     max-width: 95%;
@@ -105,7 +107,62 @@ section{
     margin-bottom: 50px;
     align-items: center;
     bottom: 50px;
+    flex-wrap: wrap;
 }
+
+ article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 10px 10px 10px 10px;
+ }
+
+article img{
+    display: flex;
+    justify-content: center;
+    padding: 13px 6px;
+    align-items: center;
+    gap: 10px;
+    max-width: 90%;
+    aspect-ratio: 16/9;
+    height: auto;
+
+}
+
+ article p{
+    display: flex;
+    max-width: 500px;
+    padding: 10px 12px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 28px;
+    background: #C4BEB6;
+}
+
+ h2{
+    display: flex;
+    height: 28px;
+    padding: 2px 12px;
+    margin: 0 0 0 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 28px;
+    background: #C4BEB6;
+    color: #000000; /* hex : #8E4611 */
+    text-decoration-line: none;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 footer{
@@ -156,47 +213,6 @@ footer img{
     color: #F8FAFC;
     border-radius: 10px;
     text-decoration: none;
-}
-
-
-section article img{
-    display: flex;
-    justify-content: center;
-    padding: 13px 6px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 90%;
-    max-width: 360px;
-    min-width: 200px;
-
-}
-
-
-
-section article p{
-    display: flex;
-    height: flex;
-    max-width: 500px;
-    padding: 10px 12px;
-    align-items: flex-start;
-    gap: 10px;
-    align-self: stretch;
-    border-radius: 28px;
-    background: #C4BEB6;
-}
-
-section article a {
-    display: flex;
-    height: 28px;
-    padding: 2px 12px;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
-    border-radius: 28px;
-    background: #C4BEB6;
-    color: #000000; /* hex : #8E4611 */
-    text-decoration-line: none;
 }
 
 
