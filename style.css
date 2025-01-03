@@ -173,6 +173,17 @@ section article img{
 
 }
 
+<<<<<<< Updated upstream
+=======
+#p{
+    display: flex;
+    width: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+>>>>>>> Stashed changes
 
 
 section article p{
