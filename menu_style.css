@@ -135,7 +135,8 @@ h2{
     display: flex;
     justify-content: center;
     width: 90%;
-    height: 10px;
+    height: 20px;
+    font-size: 130%;
 }
 
 article p {
