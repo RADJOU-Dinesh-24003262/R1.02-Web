@@ -1,7 +1,6 @@
 h1{
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 html{
@@ -86,17 +85,20 @@ nav a:hover::after {
 }
 
 
+
+
 header img{
   position: relative;
   max-height: 98%;
   flex-shrink: 0;
   padding-left: 3%;
+  padding-right: 10px;
   
 }
 
 section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
     margin-top: 3%;
     max-width: 95%;
@@ -106,68 +108,7 @@ section{
     margin-bottom: 50px;
     align-items: center;
     bottom: 50px;
-    flex-wrap: wrap;
 }
-
- article{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    
-    gap: 10px;
-    max-width: 480px;
-    margin: 20px 10px 20px 10px;
- }
-
-article img{
-    display: flex;
-    justify-content: center;
-    padding: 13px 6px;
-    align-items: center;
-    max-width: max-content;
-    height: 100%;
-
-}
-
-article p{
-    display: flex;
-    padding: 10px 12px;
-    align-items: flex-start;
-    align-self: stretch;
-    border-radius: 28px;
-    background: #C4BEB6;
-    max-width: 230px;
-}
-
-h2{
-    display: flex;
-    height: 28px;
-    width: 60%;
-    min-width: 150px;
-    padding: 2px 2px;
-    margin: 0 0 0 0;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    align-self: stretch;
-    border-radius: 28px;
-    background: #C4BEB6;
-    color: #000000; /* hex : #8E4611 */
-    text-decoration-line: none;
-}
-
-a{
-    display: flex;
-    justify-content: center;
-    text-decoration-line: none;
-    color: #8E4611;
-}
-
-
-
-
 
 footer{
     flex: 1 1 auto;
@@ -220,10 +161,14 @@ footer img{
 }
 
 
+iframe{
+    border: 0px;
+    max-width: 95%;
+}
 
 
 /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
-*{
+* {
   scrollbar-width: thin;
   scrollbar-color: #8E4611 #DFE9EB;
 }
@@ -251,4 +196,73 @@ footer img{
 
 *::-webkit-scrollbar-thumb:active {
 background-color: #AE5615;
+}
+
+
+/* text KFC or Kebab Fries Checkien animation*/
+@import url("https://fonts.googleapis.com/css?family-Amethysta&display-swap");
+svg {
+    font-family: "Amethysta", sans-serif;
+    fill :#8e4511e1;
+    width: 100%; height: 100%;
+    margin:1%;
+}
+svg text {
+    animation: 15s linear(0 0%, 0 1.8%, 0.01 3.6%, 0.03 6.35%, 0.07 9.1%, 0.13 11.4%, 0.19 13.4%, 0.27 15%, 0.34 16.1%, 0.54 18.35%, 0.66 20.6%, 
+	0.72 22.4%, 0.77 24.6%, 0.81 27.3%, 0.85 30.4%, 0.88 35.1%, 0.92 40.6%, 0.94 47.2%, 0.96 55%, 0.98 64%, 0.99 74.4%, 1 86.4%, 1 100%) 0s 10 alternate-reverse stroke;
+    stroke-width: 2;
+    stroke: #904711;
+    font-size: 300%;
+    
+}
+
+svg #name_desktop{
+    display: none;
+}
+
+@keyframes stroke {
+    0%{
+        fill: rgba(142,70,17,0);
+        stroke: rgba(144,71,17,1);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 8 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(142,78,17,0);
+        stroke: rgba(144,71,17,1);
+    }
+    88% {
+        fill: rgba(142,78,17,0);
+        stroke: rgba(144,71,17,1);
+        stroke-width: 3;
+    }
+
+    100% {
+    fill: rgba(142,76,17,1);
+    stroke: rgba(144, 72, 17, 0.829);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0; 
+    stroke-width: 0;
+    }
+}
+
+/*for the KFC title*/
+@media (min-width : 800px) {
+    svg #name_desktop{
+        display: inline;
+    }
+
+    svg #name_mobile{
+        display: none;
+    }
+
+    svg{
+        width: 955px;
+    }
+
+    h1{
+        width: 100%;
+    }
 }
