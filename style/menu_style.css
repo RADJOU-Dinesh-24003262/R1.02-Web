@@ -125,10 +125,10 @@ article {
     margin: 15px 5px 15px 5px;
 }
 
-article img {
+article img, video {
     flex-shrink: 1;
     border-radius: 37px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    /*background: url(<path-to-image>) lightgray 50% / cover no-repeat;*/
 }
 
 h2{
@@ -146,13 +146,7 @@ article p {
     margin: 2px 2px 2px 2px;
 }
 
-video {
-    flex-shrink: 1;
-    border-radius: 37px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-    max-width: 250px;
-    max-height: 250px;
-}
+
 
 
 footer{
