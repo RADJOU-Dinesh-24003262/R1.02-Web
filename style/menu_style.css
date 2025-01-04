@@ -118,7 +118,7 @@ article {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 480px;
+    width: 500px;
     max-width: 100%;
     gap: 10px;
     flex-shrink: 0;
