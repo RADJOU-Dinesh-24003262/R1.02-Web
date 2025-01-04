@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="partenaire_style.css">
+    <link id="style" rel="stylesheet" href="style/partenaire_style.css">
     <title>KFC - Partenaires </title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon/apple-touch-icon.png">
@@ -47,6 +47,20 @@
         <a id="active" href="/partenaire.html">Nos Partenaires</a>
         <a href="/contact.html">Contact</a>
       </nav>
+      <a href="#" onclick="changerStyle()"><img src="asset/cloud-change.svg" height="25" alt="changer de style"></a>
+
+      <script>
+        function changerStyle() {
+          var linkElement = document.getElementById('style');
+          if (linkElement.getAttribute('href') === "style/partenaire_style.css") {
+            linkElement.setAttribute('href', "style/alternative/partenaire_style.css");
+          }else{
+            linkElement.setAttribute('href', "style/partenaire_style.css")
+          }
+            
+        }
+      </script>
+    
     </header>
 
 
