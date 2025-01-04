@@ -41,6 +41,7 @@
   <body>
     <header>
       <img src="asset/logo/logo_classique_without_name.avif" height="117" alt="Logo of Kebab Fries Chicken">
+      <!-- Menu de navigation inter pages-->
       <nav>
         <a href="/index.html">Accueil</a>
         <a href="/menu.html">Nos Menus</a>
@@ -49,6 +50,7 @@
       </nav>
       <a href="#" onclick="changerStyle()"><img src="asset/cloud-change.svg" height="25" alt="changer de style"></a>
 
+      <!--script javascript changement Style CSS-->
       <script>
         function changerStyle() {
           var linkElement = document.getElementById('style');
@@ -65,6 +67,7 @@
     
     <section>
       <h1>Contact Us</h1>
+      <!-- Formulaire de contact à compléter-->
       <form id="form" action="mailto:kfc.support@kfc.fr?content-type=text/html&amp;subject=Contact%20Us" method="post" enctype="text/plain">
         <label for="fname">Nom :</label>
         <input class="text" type="text" id="fname" name="fname" placeholder="Martin-Nevot" required="required"><br>
@@ -75,7 +78,7 @@
         <label for="mail">E-mail :</label>
         <input class="text" type="email" id="mail" name="mail" placeholder="mickael.martin-nevot@gmail.com" required="required"><br>
 
-        
+        <!-- liste choix cliquable avis -->
         <fieldset>
           <legend>Pourquoi nous contacter ?</legend>
             <input type="checkbox" id="marque" name="interest" value="marque">
@@ -107,7 +110,8 @@
         <label for="avis">Vos Commentaires :</label>
         <textarea class="text" id="avis" name="avis" rows="15" cols="50" required="required" placeholder="Votre Avis..."></textarea><br>
 
-        <input id="envoyer" type="submit" value="Go"><br>
+        <input id="envoyer" type="submit" value="Go">
+        <br>
         <input id="effacer" type="reset" value="Effacer">
 
       </form> 
@@ -128,6 +132,7 @@
         <img src="https://bff.ecoindex.fr/badge/?theme=light&url=https://dineshrdj.alwaysdata.net/contact.html" width="108" height="32" alt="Ecoindex Badge">
       </a>
 
+      <!-- Validateur W3C CSS -->
       <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="https://jigsaw.w3.org/css-validator/images/vcss"
