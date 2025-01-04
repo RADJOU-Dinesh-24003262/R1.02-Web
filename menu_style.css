@@ -115,7 +115,7 @@ section{
 article {
     display: flex;
     justify-content: center;
-    justify-content: row;
+    justify-content: flex;
     align-items: center;
     flex-wrap: wrap;
     width: 480px;
