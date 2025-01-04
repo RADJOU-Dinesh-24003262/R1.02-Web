@@ -118,17 +118,17 @@ article {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 480px;
+    width: 500px;
     max-width: 100%;
     gap: 10px;
     flex-shrink: 0;
     margin: 15px 5px 15px 5px;
 }
 
-article img {
+article img, video {
     flex-shrink: 1;
     border-radius: 37px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    /*background: url(<path-to-image>) lightgray 50% / cover no-repeat;*/
 }
 
 h2{
@@ -153,6 +153,8 @@ video {
     max-width: 250px;
     max-height: 250px;
 }
+
+
 
 
 footer{

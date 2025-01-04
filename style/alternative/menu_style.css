@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background: #FAF9F1;
+    background: #7B7B7B;
     display: flex;
     margin: 0;
     flex-direction: column;
@@ -30,7 +30,7 @@ header{
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    background: #8E4611;
+    background: #000;
     position: fixed;
     
     
@@ -49,7 +49,7 @@ nav{
 
 nav a {
     padding-bottom: 1%;
-    color: #FAF9F1;
+    color: #FC0000;
     text-decoration: none;
     display: inline-block;
     position: relative;
@@ -92,8 +92,10 @@ header img{
   position: relative;
   max-height: 98%;
   flex-shrink: 0;
-  padding-left: 3%;
-  padding-right: 10px;
+  margin-left: 3%;
+  margin-right: 10px;
+  background-color: #8F8F8E;
+  border-radius: 10px;
 }
 
 section{
@@ -118,17 +120,17 @@ article {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 480px;
+    width: 500px;
     max-width: 100%;
     gap: 10px;
     flex-shrink: 0;
     margin: 15px 5px 15px 5px;
 }
 
-article img {
+article img, video {
     flex-shrink: 1;
     border-radius: 37px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    /*background: url(<path-to-image>) lightgray 50% / cover no-repeat;*/
 }
 
 h2{
@@ -146,13 +148,7 @@ article p {
     margin: 2px 2px 2px 2px;
 }
 
-video {
-    flex-shrink: 1;
-    border-radius: 37px;
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-    max-width: 250px;
-    max-height: 250px;
-}
+
 
 footer{
     flex: 1 1 auto;
@@ -162,7 +158,7 @@ footer{
     align-items: center;
     min-height: 110px;
     width: 80%;
-    background: #8E4611;
+    background: #000;
     padding: 0px 10% 0px 10%;
 }
 
