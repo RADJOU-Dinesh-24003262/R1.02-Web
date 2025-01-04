@@ -223,10 +223,10 @@ footer img{
 
 
 /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
-/** {
+*{
   scrollbar-width: thin;
   scrollbar-color: #8E4611 #DFE9EB;
-}*/
+}
 
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {
