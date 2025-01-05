@@ -1,3 +1,6 @@
+/*font for the kfc animation*/
+@import url('https://fonts.googleapis.com/css2?family=Amethysta&display=swap');
+
 h1{
     display: flex;
     justify-content: center;
@@ -200,7 +203,6 @@ background-color: #AE5615;
 
 
 /* text KFC or Kebab Fries Checkien animation*/
-@import url("https://fonts.googleapis.com/css?family-Amethysta&display-swap");
 svg {
     font-family: "Amethysta", sans-serif;
     fill :#8e4511e1;
