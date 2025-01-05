@@ -36,6 +36,8 @@
     <meta name="twitter:image" content="https://dineshrdj.alwaysdata.net/asset/logo_classique.png">
 
     <link rel="canonical" href="https://dineshrdj.alwaysdata.net/index.html">
+    <meta http-equiv="Cache-Control" content="public, max-age=2592000">
+    <meta http-equiv="expires" content="Thu, 9 Jan 2024 12:0:0 GMT" >
   </head>
 
   <body>
@@ -48,20 +50,10 @@
         <a href="/partenaire.html">Nos Partenaires</a>
         <a href="/contact.html">Contact</a>
       </nav>
-      <a href="#" onclick="changerStyle()"><img src="asset/cloud-change.svg" height="25" alt="changer de style"></a>
+      <a href="#" onclick="changerStyle('style.css')"><img src="asset/cloud-change.svg" height="25" alt="changer de style"></a>
       
       <!--script javascript changement Style CSS-->
-      <script>
-        function changerStyle() {
-          var linkElement = document.getElementById('style');
-          if (linkElement.getAttribute('href') === "style/style.css") {
-            linkElement.setAttribute('href', "style/alternative/style.css");
-          }else{
-            linkElement.setAttribute('href', "style/style.css")
-          }
-            
-        }
-      </script>
+      <script src="javascript/script.js"></script>
 
     </header>
     <section>
@@ -88,8 +80,7 @@
       <img id="kebab1" src="asset/kebab1.png" alt="image kebab">
       
       <!-- Carte Google Map interactive-->
-      <p>Où nous retouver : <strong> 116, Ranga Pillai St </strong>:</p>
-      <iframe title="Le lieu du restaurant" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.2686186377897!2d79.82875068326054!3d11.935233823223593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361c4c6d34f97%3A0x1a3e159508737229!2sKFC!5e0!3m2!1sfr!2sfr!4v1735560588386!5m2!1sfr!2sfr" width="600" height="275" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <p>Où nous retouver : <a href="https://maps.app.goo.gl/2vcEb6BpDtzpC8xv8"> <strong> 116, Ranga Pillai St </strong> </a></p>
     </section>
 
 

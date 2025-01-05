@@ -35,7 +35,8 @@
     <meta name="twitter:description" content="Découvrez KFC, Kebab Fries Chicken, votre restaurant de qualité. Découvrez une cuisine savoureuse et fraîche, avec des produits frais, des viandes de qualité et des frites croustillantes pour une expérience gustative inoubliable. Savourez des plats délicieux dans une ambiance conviviale !">
     <meta name="twitter:image" content="https://dineshrdj.alwaysdata.net/asset/logo_classique.png">
 
-
+    <meta http-equiv="Cache-Control" content="public, max-age=2592000">
+    <meta http-equiv="expires" content="Thu, 9 Jan 2024 12:0:0 GMT" >
   </head>
   
   <body>
@@ -48,20 +49,10 @@
         <a href="/partenaire.html">Nos Partenaires</a>
         <a href="/contact.html">Contact</a>
       </nav>
-      <a href="#" onclick="changerStyle()"><img src="asset/cloud-change.svg" height="25" alt="changer de style"></a>
+      <a href="#" onclick="changerStyle('menu_style.css')"><img src="asset/cloud-change.svg" height="25" alt="changer de style"></a>
 
       <!--script javascript changement Style CSS-->
-      <script>
-        function changerStyle() {
-          var linkElement = document.getElementById('style');
-          if (linkElement.getAttribute('href') === "style/menu_style.css") {
-            linkElement.setAttribute('href', "style/alternative/menu_style.css");
-          }else{
-            linkElement.setAttribute('href', "style/menu_style.css")
-          }
-            
-        }
-      </script>
+      <script src="javascript/script.js"></script>
     </header>
 
     
