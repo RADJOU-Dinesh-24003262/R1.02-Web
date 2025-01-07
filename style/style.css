@@ -112,7 +112,22 @@ section{
 
 article {
     display: flex;
-    flex-direction: row; /* Aligne les groupes horizontalement */
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 3%;
+    max-width: 65%;
+}
+
+article img{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+@media (max-width : 600px) {
+    article {
+        flex-wrap: wrap;
+    }
 }
 
 footer{
