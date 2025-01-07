@@ -38,7 +38,7 @@ header{
 nav{
     display: flex;
     flex-direction: column;
-    min-width: 50%;
+    min-width: 110px;
     padding-right: 2%;
     right: 30px;    
     max-width: 800px;
@@ -50,7 +50,7 @@ nav{
 }
 
 nav a {
-    padding-bottom: 1%;
+    margin: 4px 2px 4px 2px;
     color: #FC0000;
     width:fit-content;
     text-decoration: none;
