@@ -22,10 +22,10 @@ header{
     z-index: 10;
     display: flex;
     width: 100%;
-    height: 8%;
+    height: 15%;
     margin: 0;
-    min-height: 40px;
-    max-height: 120px;
+    min-height: 100px;
+    max-height: 130px;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -38,23 +38,25 @@ header{
 
 nav{
     display: flex;
-    min-width: 50%;
+    flex-direction: column;
+    min-width: 110px;
     padding-right: 2%;
     right: 30px;    
     max-width: 800px;
     flex-wrap: wrap;
     justify-content: space-around;
     font-size: 100%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav a {
-    padding-bottom: 1%;
+    margin: 4px 2px 4px 2px;
+    width:fit-content;
     color: #FC0000;
     text-decoration: none;
     display: inline-block;
     position: relative;
-    margin: 2.5px;
-    margin-left: 10px;
 }
 
 @media (max-width : 435px) and ( min-width : 327px )     {
@@ -104,7 +106,7 @@ section{
     margin-top: 3%;
     max-width: 95%;
     min-width: 30%;
-    top: 50px;
+    top: 100px;
     justify-content: center;
     margin-bottom: 50px;
     align-items: center;
@@ -135,7 +137,6 @@ article img{
 }
 
 article p{
-    display: flex;
     padding: 10px 12px;
     align-items: flex-start;
     align-self: stretch;
