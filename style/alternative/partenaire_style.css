@@ -137,7 +137,6 @@ article img{
 }
 
 article p{
-    display: flex;
     padding: 10px 12px;
     align-items: flex-start;
     align-self: stretch;
