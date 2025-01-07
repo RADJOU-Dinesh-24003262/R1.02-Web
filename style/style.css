@@ -110,6 +110,11 @@ section{
     bottom: 50px;
 }
 
+article {
+    display: flex;
+    flex-direction: row; /* Aligne les groupes horizontalement */
+}
+
 footer{
     flex: 1 1 auto;
     display: flex;
