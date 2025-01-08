@@ -73,7 +73,7 @@ nav a {
     color: #C9F909;
 }
 
-/*style animation Kebab Fries Chicken*/
+/*style animation text barre navigation*/
 /* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
 nav a:after {
     content: "";
@@ -268,7 +268,7 @@ background-color: #AE5615;
 }
 
 
-/* text KFC or Kebab Fries Checkien animation*/
+/* text KFC or Kebab Fries Chicken animation*/
 svg {
     font-family: sans-serif;
     fill :#8e4511e1;
