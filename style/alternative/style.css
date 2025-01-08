@@ -18,6 +18,7 @@ body{
     transition: all 1s ease-in-out;
 }
 
+/*position et couleur barre de navigation */
 header{
     z-index: 10;
     display: flex;
@@ -36,6 +37,7 @@ header{
     
 }
 
+/*style + proportion selon taille pour barre de navigation*/
 nav{
     display: flex;
     flex-direction: column;
@@ -51,6 +53,7 @@ nav{
     transition: all 1s ease-in-out;
 }
 
+/*style + proportion selon taile pour texte dans barre nav*/
 nav a {
     margin: 4px 2px 4px 2px;
     width:fit-content;
@@ -99,7 +102,7 @@ h3 {
     width: 90%;
 }
 
-
+/*taille image logo barre de navigation*/
 header img{
   position: relative;
   max-height: 98%;
@@ -129,6 +132,7 @@ section a{
     transition: color 0.3s;
 }
 
+/*Cool animation on a link*/
 section a:hover{
     color: #FCFCFC;
 }
@@ -230,7 +234,8 @@ footer img{
 }
 
 
-/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/* Cette balise fait marcher le scrollbar pour firefox mais les balises suivantes ne marcheront pas
+mais cela rends la scroll bar moins esthetique*/
 * {
   scrollbar-width: thin;
   scrollbar-color: #FC0000 #000000;
@@ -258,7 +263,7 @@ footer img{
 }
 
 *::-webkit-scrollbar-thumb:active {
-background-color: #AE5615;
+    background-color: #AE5615;
 }
 
 

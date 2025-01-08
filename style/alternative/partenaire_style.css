@@ -239,7 +239,8 @@ footer img{
 
 
 
-/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/* Cette balise fait marcher le scrollbar pour firefox mais les balises suivantes ne marcheront pas
+mais cela rends la scroll bar moins esthetique*/
 *{
   scrollbar-width: thin;
   scrollbar-color: #FC0000 #000000;
