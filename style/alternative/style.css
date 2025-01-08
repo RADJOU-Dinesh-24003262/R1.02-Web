@@ -113,6 +113,15 @@ section{
     bottom: 50px;
 }
 
+section a{
+    color: #000000;
+    transition: color 0.3s;
+}
+
+section a:hover{
+    color: #FCFCFC;
+}
+
 footer{
     flex: 1 1 auto;
     display: flex;

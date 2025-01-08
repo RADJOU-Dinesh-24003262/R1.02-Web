@@ -96,6 +96,10 @@ header img{
   
 }
 
+section a{
+    color: #8E4611;
+}
+
 section{
     display: flex;
     flex-direction: column;
