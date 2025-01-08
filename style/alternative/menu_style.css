@@ -150,6 +150,13 @@ article p {
     margin: 2px 2px 2px 2px;
 }
 
+a{
+    text-decoration-line: none;
+    color: #a40000;
+    text-decoration: solid;
+    stroke: #000;
+}
+
 
 
 footer{
