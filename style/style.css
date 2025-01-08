@@ -88,14 +88,14 @@ nav a:hover::after {
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: 36px;
 }
 
 h3 {
+    font-size: 28px;
     display: flex;
     justify-content: center;
     width: 90%;
-    font-size: 130%;
 }
 
 
@@ -133,6 +133,7 @@ section a:hover{
 
 p{
     max-width: 70%;
+    font-size: 20px;
 }
 
 article {
@@ -141,7 +142,7 @@ article {
     align-items: center; 
     justify-content: space-around;
     margin: 3%;
-    max-width: 85%;
+    max-width: 95%;
     flex-wrap: wrap;
 }
 
@@ -182,6 +183,7 @@ footer p{
     min-width: 200px;
     max-width: 300px;
     color: #D6CFCC;
+    font-size: 16px;
 }
 
 footer a{
