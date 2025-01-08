@@ -15,6 +15,7 @@ body{
     align-content: center;
     flex-wrap: wrap;
     align-items: center;
+    transition: all 1s ease-in-out;
 }
 
 header{
@@ -31,6 +32,7 @@ header{
     flex-wrap: nowrap;
     background: #8E4611;
     position: fixed;
+    transition: all 1s ease-in-out;
     
     
 }
@@ -44,6 +46,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
     font-size: 100%;
+    transition: all 1s ease-in-out;
 }
 
 nav a {
@@ -84,7 +87,12 @@ nav a:hover::after {
     background-color:#FFF;
 }
 
-
+article h2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-size: 130%;
+}
 
 
 header img{
@@ -130,6 +138,7 @@ article {
     justify-content: space-around;
     margin: 3%;
     max-width: 95%;
+    flex-wrap: wrap;
 }
 
 article p{
@@ -161,6 +170,7 @@ footer{
     width: 80%;
     background: #8E4611;
     padding: 0px 10% 0px 10%;
+    transition: all 1s ease-in-out;
 }
 
 footer p{

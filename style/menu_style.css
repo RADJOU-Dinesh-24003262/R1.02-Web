@@ -16,6 +16,7 @@ body{
     align-content: center;
     flex-wrap: wrap;
     align-items: center;
+    transition: all 1s ease-in-out;
 }
 
 header{
@@ -32,6 +33,7 @@ header{
     flex-wrap: nowrap;
     background: #8E4611;
     position: fixed;
+    transition: all 1s ease-in-out;
     
     
 }
@@ -45,6 +47,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
     font-size: 100%;
+    transition: all 1s ease-in-out;
 }
 
 nav a {
@@ -55,6 +58,7 @@ nav a {
     position: relative;
     margin: 2.5px;
     margin-left: 10px;
+    transition: all 1s ease-in-out;
 }
 
 @media (max-width : 435px) and ( min-width : 327px )     {
@@ -169,6 +173,7 @@ footer{
     width: 80%;
     background: #8E4611;
     padding: 0px 10% 0px 10%;
+    transition: all 1s ease-in-out;
 }
 
 footer p{
