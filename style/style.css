@@ -110,13 +110,17 @@ section{
     bottom: 50px;
 }
 
+#desc{
+    max-width: 70%;
+}
+
 article {
     display: flex;
     flex-direction: row;
     align-items: center; 
     justify-content: space-around;
     margin: 3%;
-    max-width: 65%;
+    max-width: 95%;
 }
 
 article img{
