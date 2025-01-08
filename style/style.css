@@ -111,12 +111,12 @@ section{
 }
 
 section a{
-    color: #767676;
+    color: #8E4611;
     transition: color 0.3s;
 }
 
 section a:hover{
-    color: #8E4611;
+    color: #767676;
 }
 
 p{
