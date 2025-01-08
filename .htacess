@@ -1,0 +1,4 @@
+# Mise en cache des fichiers statiques (images, JS, CSS)
+<FilesMatch "\.(jpg|jpeg|png|gif|js|css|pdf|ico|avif)$">
+    Header set Cache-Control « max-age=2628000, public »
+</FilesMatch>
