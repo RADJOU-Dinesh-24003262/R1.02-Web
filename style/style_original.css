@@ -1,0 +1,337 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #FAF9F1;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+/*position et couleur barre de navigation */
+header{
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    height: 8%;
+    margin: 0;
+    min-height: 40px;
+    max-height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    background: #8E4611;
+    position: fixed;
+    transition: all 1s ease-in-out;
+    
+    
+}
+
+
+/*style + proportion selon taille pour barre de navigation*/
+nav{
+    display: flex;
+    min-width: 50%;
+    padding-right: 2%;
+    right: 30px;    
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 100%;
+    transition: all 1s ease-in-out;
+}
+
+/*style + proportion selon taille pour texte dans barre nav*/
+nav a {
+    padding-bottom: 1%;
+    color: #FAF9F1;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin: 2.5px;
+    margin-left: 10px;
+}
+
+@media (max-width : 435px) and ( min-width : 327px )     {
+    nav{
+        flex-basis: 60%;
+    }
+}
+
+#active{
+    color: #C9F909;
+}
+
+/*style animation text barre navigation*/
+/* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
+nav a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 1px;
+}
+
+nav a:hover::after {
+    width: 100%;
+    height: 1px;
+    background-color:#FFF;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+/*taille image logo barre de navigation*/
+header img{
+  position: relative;
+  max-height: 98%;
+  flex-shrink: 0;
+  padding-left: 3%;
+  padding-right: 10px;
+  
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 3%;
+    max-width: 95%;
+    min-width: 30%;
+    top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+    bottom: 50px;
+}
+
+section a{
+    color: #8E4611;
+    transition: color 0.3s;
+}
+
+/*Animation changement de couleur du lien*/
+section a:hover{
+    color: #767676;
+}
+
+p{
+    max-width: 70%;
+    font-size: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 3%;
+    max-width: 95%;
+    flex-wrap: wrap;
+}
+
+article p{
+    max-width: 400px;
+}
+
+article img{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+img{
+    border-radius: 5px;
+}
+
+@media (max-width : 600px) {
+    article {
+        flex-wrap: wrap;
+    }
+}
+
+
+/*style barre du bas ( footer )*/
+footer{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 110px;
+    width: 80%;
+    background: #8E4611;
+    padding: 0px 10% 0px 10%;
+    transition: all 1s ease-in-out;
+}
+
+footer p{
+    width: 40%;
+    min-width: 200px;
+    max-width: 300px;
+    color: #D6CFCC;
+    font-size: 16px;
+}
+
+footer a{
+    color: #D6CFCC;
+    transition: color 0.3s;
+}
+
+footer a:hover{
+    color: #000000;
+}
+
+/*taille image AMU barre footer*/
+footer #amu{
+    display: flex;
+    margin: 5px 10px 5px 10px ;
+    border-radius: 50%;
+}
+
+/*taille image Creative Commons barre footer*/
+footer #cc{
+    display: flex;
+    margin: 5px 10px 5px 10px ;
+}
+
+footer img{
+    margin: 5px 5px 5px 5px;
+}
+
+/*style ancre de déplacement*/
+#ancre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 10px 10px 10px 88%;
+    padding: 10px 10px 10px 10px;
+    bottom: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #8E4611;
+    color: #F8FAFC;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+/* Cette balise fait marcher le scrollbar pour firefox mais les balises suivantes ne marcheront pas
+mais cela rends la scroll bar moins esthetique*/
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8E4611 #DFE9EB;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 12px;
+    width: 13px;
+  }
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #FAF9F1;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #8E4611;
+    border: 1px solid #FAF9F1;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #AE5615;
+}
+
+*::-webkit-scrollbar-thumb:active {
+background-color: #AE5615;
+}
+
+
+/* text KFC or Kebab Fries Chicken animation*/
+svg {
+    font-family: sans-serif;
+    fill :#8e4511e1;
+    width: 100%; height: 100%;
+    margin:1%;
+}
+svg text {
+    animation: stroke 15s ease-out  0s 10 alternate-reverse;
+    stroke-width: 2;
+    stroke: #904711;
+    font-size: 300%;
+    
+}
+
+svg #name_desktop{
+    display: none;
+}
+
+@keyframes stroke {
+    0%{
+        fill: rgba(142,70,17,0);
+        stroke: rgba(144,71,17,1);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 8 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(142,78,17,0);
+        stroke: rgba(144,71,17,1);
+    }
+    88% {
+        fill: rgba(142,78,17,0);
+        stroke: rgba(144,71,17,1);
+        stroke-width: 3;
+    }
+
+    100% {
+    fill: rgba(142,76,17,1);
+    stroke: rgba(144, 72, 17, 0.829);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0; 
+    stroke-width: 0;
+    }
+}
+
+/*for the KFC title*/
+@media (min-width : 800px) {
+    svg #name_desktop{
+        display: inline;
+    }
+
+    svg #name_mobile{
+        display: none;
+    }
+
+    svg{
+        width: 955px;
+    }
+
+    h1{
+        width: 100%;
+    }
+}
