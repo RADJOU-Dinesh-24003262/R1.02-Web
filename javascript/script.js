@@ -3,21 +3,21 @@ function changerStyle(css) {
   var currentStyle = linkElement.getAttribute('href');
   let styleValue = localStorage.getItem("style");
 
-  console.log(styleValue);
+  //console.log(styleValue);
   if (styleValue === null) {
-    localStorage.setItem("style", "normal");
-    linkElement.setAttribute('href', "style/" + css);
-    console.log(styleValue);
+    localStorage.setItem("style", "sombre");
+    linkElement.setAttribute('href', "style/alternative/" + css);
+    //console.log(localStorage.getItem("style"));
   }
   else if(styleValue == "normal"){
     linkElement.setAttribute('href', "style/alternative/"+ css);
     localStorage.setItem("style", "sombre");
-    console.log(styleValue);
+    //console.log(localStorage.getItem("style"));
   }
   else if(styleValue == "sombre"){
     linkElement.setAttribute('href', "style/" + css);
     localStorage.setItem("style", "normal");
-    console.log(styleValue);
+    //console.log(localStorage.getItem("style"));
 
   }
 }
