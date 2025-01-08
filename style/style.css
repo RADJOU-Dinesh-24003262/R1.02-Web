@@ -91,11 +91,15 @@ nav a:hover::after {
     background-color:#FFF;
 }
 
-article h2{
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
     display: flex;
     justify-content: center;
     width: 90%;
-    font-size: 130%;
 }
 
 /*taille image logo barre de navigation*/
@@ -133,6 +137,7 @@ section a:hover{
 
 p{
     max-width: 70%;
+    font-size: 20px;
 }
 
 article {
@@ -184,6 +189,7 @@ footer p{
     min-width: 200px;
     max-width: 300px;
     color: #D6CFCC;
+    font-size: 16px;
 }
 
 footer a{

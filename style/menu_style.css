@@ -123,7 +123,7 @@ article {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 500px;
+    width: 570px;
     max-width: 100%;
     gap: 10px;
     flex-shrink: 0;
@@ -146,7 +146,6 @@ h2{
 
 article p {
     max-width: 250px;
-    max-height: 113px;
     flex-shrink: 0;
     margin: 2px 2px 2px 2px;
 }
