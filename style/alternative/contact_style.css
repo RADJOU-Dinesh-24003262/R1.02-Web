@@ -52,6 +52,7 @@ nav{
     transition: all 1s ease-in-out;
 }
 
+/*style + proportion selon taile pour texte dans barre nav*/
 nav a {
     margin: 4px 2px 4px 2px;
     color: #FC0000;
@@ -72,7 +73,7 @@ nav a {
     color: #C9F909;
 }
 
-
+/*style animation text barre navigation*/
 /* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
 nav a:after {
     content: "";
@@ -92,7 +93,7 @@ nav a:hover::after {
 
 
 
-
+/*taille image logo barre de navigation*/
 header img{
   position: relative;
   max-height: 98%;
@@ -200,6 +201,7 @@ form fieldset label{
     margin-inline: auto;
 }
 
+/*style barre du bas ( footer )*/
 footer{
     flex: 1 1 auto;
     display: flex;
@@ -229,12 +231,14 @@ footer a:hover{
     color: #797979;
 }
 
+/*taille image AMU barre footer*/
 footer #amu{
     display: flex;
     margin: 5px 10px 5px 10px ;
     border-radius: 50%;
 }
 
+/*taille image Creative Commons barre footer*/
 footer #cc{
     display: flex;
     margin: 5px 10px 5px 10px ;
@@ -244,6 +248,7 @@ footer img{
     margin: 5px 5px 5px 5px;
 }
 
+/*style ancre de déplacement*/
 #ancre{
     display: flex;
     justify-content: center;
