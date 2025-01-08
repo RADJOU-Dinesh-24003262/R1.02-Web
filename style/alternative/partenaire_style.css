@@ -162,7 +162,7 @@ h2{
     text-decoration-line: none;
 }
 
-a{
+section a{
     display: flex;
     justify-content: center;
     text-decoration-line: none;
@@ -190,6 +190,15 @@ footer p{
     min-width: 200px;
     max-width: 300px;
     color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+    transition: color 0.3s;
+}
+
+footer a:hover{
+    color: #797979;
 }
 
 footer #amu{

@@ -215,6 +215,15 @@ footer p{
     color: #FFF;
 }
 
+footer a{
+    color: #FFF;
+    transition: color 0.3s;
+}
+
+footer a:hover{
+    color: #797979;
+}
+
 footer #amu{
     display: flex;
     margin: 5px 10px 5px 10px ;

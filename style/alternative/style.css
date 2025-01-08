@@ -144,6 +144,10 @@ article img{
     margin-right: 2vw;
 }
 
+img{
+    border-radius: 5px;
+}
+
 @media (max-width : 600px) {
     article {
         flex-wrap: wrap;
@@ -168,6 +172,16 @@ footer p{
     max-width: 300px;
     color: #FFF;
 }
+
+footer a{
+    color: #FFF;
+    transition: color 0.3s;
+}
+
+footer a:hover{
+    color: #797979;
+}
+
 
 footer #amu{
     display: flex;

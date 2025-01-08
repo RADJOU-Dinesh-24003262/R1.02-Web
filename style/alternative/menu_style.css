@@ -151,6 +151,7 @@ article p {
 }
 
 section a{
+    text-decoration-line: none;
     color: #000000;
     transition: color 0.3s;
 }
@@ -176,7 +177,16 @@ footer p{
     width: 40%;
     min-width: 200px;
     max-width: 300px;
-    color: #D6CFCC;
+    color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+    transition: color 0.3s;
+}
+
+footer a:hover{
+    color: #797979;
 }
 
 footer #amu{
