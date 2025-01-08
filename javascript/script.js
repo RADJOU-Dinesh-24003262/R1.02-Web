@@ -15,7 +15,7 @@ function changerStyle(css) {
     //console.log(localStorage.getItem("style"));
   }
   else if(styleValue == "sombre"){
-    linkElement.setAttribute('href', "style/" + css);
+    linkElement.setAttribute('href', "style/classique/" + css);
     localStorage.setItem("style", "normal");
     //console.log(localStorage.getItem("style"));
 

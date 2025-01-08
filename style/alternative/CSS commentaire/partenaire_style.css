@@ -1,0 +1,270 @@
+h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #7B7B7B;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+
+header{
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    margin: 0;
+    min-height: 115px;
+    max-height: 130px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    background: #000;
+    position: fixed;
+    transition: all 1s ease-in-out;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    min-width: 110px;
+    padding-right: 2%;
+    right: 30px;    
+    max-width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 1s ease-in-out;
+}
+
+/*style + proportion selon taile pour texte dans barre nav*/
+nav a {
+    margin: 4px 2px 4px 2px;
+    width:fit-content;
+    color: #FC0000;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+@media (max-width : 435px) and ( min-width : 327px )     {
+    nav{
+        flex-basis: 60%;
+    }
+}
+
+#active{
+    color: #C9F909;
+}
+
+/*style animation text barre navigation*/
+/* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
+nav a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 1px;
+}
+
+nav a:hover::after {
+    width: 100%;
+    height: 1px;
+    background-color:#FC0000;
+}
+
+/*style animation text barre navigation*/
+header img{
+  position: relative;
+  max-height: 98%;
+  flex-shrink: 0;
+  margin-left: 3%;
+  margin-right: 10px;
+  background-color: #8F8F8E;
+  border-radius: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 3%;
+    max-width: 95%;
+    min-width: 30%;
+    top: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+    bottom: 50px;
+    flex-wrap: wrap;
+}
+
+ article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+    max-width: 480px;
+    margin: 20px 10px 20px 10px;
+ }
+
+article img{
+    display: flex;
+    justify-content: center;
+    padding: 13px 6px;
+    align-items: center;
+    max-width: max-content;
+    height: 100%;
+
+}
+
+article p{
+    padding: 10px 12px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 28px;
+    background: #C4BEB6;
+    max-width: 230px;
+}
+
+h2{
+    display: flex;
+    height: 28px;
+    width: 60%;
+    min-width: 150px;
+    padding: 2px 2px;
+    margin: 0 0 0 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 28px;
+    background: #C4BEB6;
+    color: #000000; /* hex : #8E4611 */
+    text-decoration-line: none;
+}
+
+section a{
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+    color: #8E4611;
+}
+
+/*style barre du bas ( footer )*/
+footer{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 110px;
+    width: 80%;
+    background: #000;
+    padding: 0px 10% 0px 10%;
+    transition: all 1s ease-in-out;
+}
+
+footer p{
+    width: 40%;
+    min-width: 200px;
+    max-width: 300px;
+    color: #FFF;
+}
+
+footer a{
+    color: #FFF;
+    transition: color 0.3s;
+}
+
+footer a:hover{
+    color: #797979;
+}
+
+/*taille image AMU barre footer*/
+footer #amu{
+    display: flex;
+    margin: 5px 10px 5px 10px ;
+    border-radius: 50%;
+}
+
+/*taille image Creative Commons barre footer*/
+footer #cc{
+    display: flex;
+    margin: 5px 10px 5px 10px ;
+}
+
+footer img{
+    margin: 5px 5px 5px 5px;
+}
+
+/*style ancre de déplacement*/
+#ancre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    margin: 10px 10px 10px 88%;
+    padding: 10px 10px 10px 10px;
+    bottom: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    color: #FC0000;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+
+/* Cette balise fait marcher le scrollbar pour firefox mais les balises suivantes ne marcheront pas
+mais cela rends la scroll bar moins esthetique*/
+*{
+  scrollbar-width: thin;
+  scrollbar-color: #FC0000 #000000;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 12px;
+    width: 13px;
+  }
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #FAF9F1;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #8E4611;
+    border: 1px solid #FAF9F1;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #AE5615;
+}
+
+*::-webkit-scrollbar-thumb:active {
+background-color: #AE5615;
+}
