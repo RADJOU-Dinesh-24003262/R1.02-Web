@@ -72,7 +72,7 @@ nav a {
     color: #C9F909;
 }
 
-
+/*style animation text barre navigation*/
 /* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
 nav a:after {
     content: "";
