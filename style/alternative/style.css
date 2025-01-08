@@ -171,7 +171,7 @@ img{
     }
 }
 
-/* */
+/*style barre du bas ( footer )*/
 footer{
     flex: 1 1 auto;
     display: flex;
@@ -202,13 +202,14 @@ footer a:hover{
     color: #797979;
 }
 
-
+/*taille image AMU barre footer*/
 footer #amu{
     display: flex;
     margin: 5px 10px 5px 10px ;
     border-radius: 50%;
 }
 
+/*taille image Creative Commons barre footer*/
 footer #cc{
     display: flex;
     margin: 5px 10px 5px 10px ;
@@ -218,6 +219,7 @@ footer img{
     margin: 5px 5px 5px 5px;
 }
 
+/*style ancre de déplacement*/
 #ancre{
     display: flex;
     justify-content: center;
@@ -268,7 +270,7 @@ mais cela rends la scroll bar moins esthetique*/
 }
 
 
-/* text KFC or Kebab Fries Checkien animation*/
+/* text KFC or Kebab Fries Chicken animation*/
 svg {
     font-family: sans-serif;
     fill :#FC0000;
