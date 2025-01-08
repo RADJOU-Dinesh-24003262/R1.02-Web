@@ -18,6 +18,7 @@ body{
     transition: all 1s ease-in-out;
 }
 
+/*position et couleur barre de navigation */
 header{
     z-index: 10;
     display: flex;
@@ -37,6 +38,8 @@ header{
     
 }
 
+
+/*style + proportion selon taille pour barre de navigation*/
 nav{
     display: flex;
     min-width: 50%;
@@ -49,6 +52,7 @@ nav{
     transition: all 1s ease-in-out;
 }
 
+/*style + proportion selon taile pour texte dans barre nav*/
 nav a {
     padding-bottom: 1%;
     color: #FAF9F1;
@@ -69,7 +73,7 @@ nav a {
     color: #C9F909;
 }
 
-
+/*style animation Kebab Fries Chicken*/
 /* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
 nav a:after {
     content: "";
@@ -94,7 +98,7 @@ article h2{
     font-size: 130%;
 }
 
-
+/*taille image logo barre de navigation*/
 header img{
   position: relative;
   max-height: 98%;
@@ -160,6 +164,8 @@ img{
     }
 }
 
+
+/*style barre du bas ( footer )*/
 footer{
     flex: 1 1 auto;
     display: flex;
@@ -189,12 +195,14 @@ footer a:hover{
     color: #000000;
 }
 
+/*taille image AMU barre footer*/
 footer #amu{
     display: flex;
     margin: 5px 10px 5px 10px ;
     border-radius: 50%;
 }
 
+/*taille image Creative Commons barre footer*/
 footer #cc{
     display: flex;
     margin: 5px 10px 5px 10px ;
@@ -204,6 +212,7 @@ footer img{
     margin: 5px 5px 5px 5px;
 }
 
+/*style ancre de déplacement*/
 #ancre{
     display: flex;
     justify-content: center;

@@ -50,6 +50,7 @@ nav{
     transition: all 1s ease-in-out;
 }
 
+/*style + proportion selon taile pour texte dans barre nav*/
 nav a {
     padding-bottom: 1%;
     color: #FAF9F1;
@@ -88,7 +89,7 @@ nav a:hover::after {
     background-color:#FFF;
 }
 
-
+/*taille image logo barre de navigation*/
 header img{
   position: relative;
   max-height: 98%;
@@ -167,10 +168,7 @@ section a{
     color: #8E4611;
 }
 
-
-
-
-
+/*style barre du bas ( footer )*/
 footer{
     flex: 1 1 auto;
     display: flex;
@@ -200,12 +198,14 @@ footer a:hover{
     color: #000000;
 }
 
+/*taille image AMU barre footer*/
 footer #amu{
     display: flex;
     margin: 5px 10px 5px 10px ;
     border-radius: 50%;
 }
 
+/*taille image Creative Commons barre footer*/
 footer #cc{
     display: flex;
     margin: 5px 10px 5px 10px ;
@@ -215,6 +215,7 @@ footer img{
     margin: 5px 5px 5px 5px;
 }
 
+/*style ancre de déplacement*/
 #ancre{
     display: flex;
     justify-content: center;
