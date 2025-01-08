@@ -73,7 +73,7 @@ nav a {
     color: #C9F909;
 }
 
-
+/*style animation text barre navigation*/
 /* credit for the animation: Kiran Raj R https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
 nav a:after {
     content: "";
@@ -132,7 +132,7 @@ section a{
     transition: color 0.3s;
 }
 
-/*Cool animation on a link*/
+/*Animation changement de couleur du lien*/
 section a:hover{
     color: #FCFCFC;
 }
@@ -171,6 +171,7 @@ img{
     }
 }
 
+/* */
 footer{
     flex: 1 1 auto;
     display: flex;

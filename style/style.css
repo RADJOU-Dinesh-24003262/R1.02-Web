@@ -131,6 +131,7 @@ section a{
     transition: color 0.3s;
 }
 
+/*Animation changement de couleur du lien*/
 section a:hover{
     color: #767676;
 }
