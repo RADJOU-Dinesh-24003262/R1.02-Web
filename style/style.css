@@ -96,10 +96,6 @@ header img{
   
 }
 
-section a{
-    color: #8E4611;
-}
-
 section{
     display: flex;
     flex-direction: column;
@@ -114,7 +110,16 @@ section{
     bottom: 50px;
 }
 
-#desc{
+section a{
+    color: #767676;
+    transition: color 0.3s;
+}
+
+section a:hover{
+    color: #8E4611;
+}
+
+#description{
     max-width: 70%;
 }
 
@@ -134,6 +139,10 @@ article p{
 article img{
     margin-left: 2vw;
     margin-right: 2vw;
+}
+
+img{
+    border-radius: 5px;
 }
 
 @media (max-width : 600px) {

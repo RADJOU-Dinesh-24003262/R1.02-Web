@@ -122,6 +122,34 @@ section a:hover{
     color: #FCFCFC;
 }
 
+#desc{
+    max-width: 70%;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 3%;
+    max-width: 95%;
+}
+
+article p{
+    max-width: 400px;
+}
+
+article img{
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+@media (max-width : 600px) {
+    article {
+        flex-wrap: wrap;
+    }
+}
+
 footer{
     flex: 1 1 auto;
     display: flex;
