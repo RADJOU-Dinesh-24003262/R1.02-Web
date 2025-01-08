@@ -7,11 +7,13 @@
     <link id="style" rel="stylesheet" href="style/menu_style.css">
     <title>Kfc - Menu</title>
 
+    <!--Style affichage favicon selon type de support-->
     <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon/favicon-16x16.png">
     <link rel="manifest" href="asset/favicon/site.webmanifest">
 
+    <!--Referencement GOOGLE-->
     <meta name="title" content="KFC - Kebab Fries Chicken">
     <meta name="description" content="Découvrez KFC, Kebab Fries Chicken, votre restaurant de qualité. Découvrez une cuisine savoureuse et fraîche, avec des produits frais, des viandes de qualité et des frites croustillantes pour une expérience gustative inoubliable. Savourez des plats délicieux dans une ambiance conviviale !">
     <meta name="keywords" content="ARFI Maxime, Maxime, RADJOU Dinesh, Dinesh Theo, Theo, TORO MULARD MURE I DIFRANCESCO Esteban Maurizio Guillaume, Esteban, TORO Esteban, projet IUT, projet web, R1.02, menu, plat, IUT, BUT Info, AIX, bachelor universitaire de technologie, Aix-en-provence, projet, AMU, Aix Marseille Universite, KFC, kebab, fries, chicken, restaurant, poulet de qualité, frites croustillantes, kebab frais, cuisine savoureuse, fast food, restaurant de poulet, restaurant de kebab, plats frais">
@@ -40,7 +42,10 @@
   
   <body>
     <header>
+
+      <!--Logo de KFC-->
       <img src="asset/logo/logo_classique_without_name.avif" height="117" alt="Logo of Kebab Fries Chicken">
+      
       <!-- Menu de navigation inter pages-->
       <nav>
         <a href="/index.html">Accueil</a>
@@ -48,6 +53,8 @@
         <a href="/partenaire.html">Nos Partenaires</a>
         <a href="/contact.html">Contact</a>
       </nav>
+
+      <!-- Image cliquable pour le changement de theme-->
       <a href="#" onclick="changerStyle('menu_style.css')"><img src="asset/cloud-change.svg" height="25" width="25" alt="changer de style"></a>
 
       <!--script javascript changement Style CSS-->
@@ -57,16 +64,19 @@
     
     <section>
       <h1>Nos menus</h1>
+
+      <!--Menu 1-->
       <article>
         <h2>Le kebab</h2>
-        <img src="asset/menu/kebab1.png" height="150" width="200" alt="logo menu Kebab1">
+        <img src="asset/broche.avif" height="150" width="200" alt="logo menu Kebab classique">
         
         <p>Le burger embaume l'air de viande grillée, de pain chaud et de fromage fondant. Une touche de légumes frais, de sauce épicée et légèrement sucrée ajoute une note délicieuse et irrésistible, réconfortante. </p>
       </article>
 
+      <!--Menu 2-->
       <article>
         <h2>L'Escalope de Veau Kebab et Crispy</h2>
-        <video width="230" height="400" controls="controls">
+        <video width="230" height="400" controls="controls" alt=""video preparation de l escalope de veau kebab ett crispy>
           <source src="asset/menu/Escalope-de-veau-kebab.mp4" type="video/mp4">
           <source src="asset/menu/Escalope-de-veau-kebab.ogv" type="video/ogg">
           <track src="asset/menu/Escalope-de-veau-kebab.vtt" kind="subtitles" srclang="fr" label="Francais">
@@ -77,27 +87,32 @@
         <p >Un menu original à manger en famille pour tout type d'occasion. <br> A refaire chez soit ou à déguster sur place. <br> Possibilité de se faire livrer en grande et en petit quantitée.</p>
       </article>
 
+      <!--Menu 3-->
       <article>
         <h2>Le pitchoune</h2>
-        <img  src="asset/menu/menu_enfant.avif" height="180" width="200" alt="logo menu Kebab3">
+        <img  src="asset/menu/menu_enfant.avif" height="180" width="200" alt="logo menu enfant + logo partenaire Poisoned gift">
         <p >Pour les petit qui on une grande faim avec un choix varié pour l'entré le plat et le dessert, avec en plus un jouer offert par notre partenaire <a href="/partenaire.html" aria-label="Lien pour la page partenaire"> <strong> Poisoned Gift </strong> </a>.  </p>
       </article>
 
+      <!--Menu 4-->
       <article>
         <h2>Le MAAXI</h2>
-        <img src="asset/menu/maxi-menu.avif" height="200" width="200" alt="logo menu Kebab4">
+        <img src="asset/menu/maxi-menu.avif" height="200" width="200" alt="image menu grandes faim">
         <p >Si les autres menus vous semblaient trop léger alors ce menu est fait pour vous, en plus d'etre plus lourd que l'ensemble des autres menus réunis, il a une concentration en gras qui est tellement haute, qu'elle est limite illégale. <br> Alors si vous avez VRAIMENT faim, profiter.</p>
       </article>
 
+      <!--Menu 5-->
       <article>
         <h2>Le monstrueux</h2>
-        <img src="asset/menu/kebab-monstre.avif" height="200" width="200" alt="logo menu Kebab5">
+        <img src="asset/menu/kebab-monstre.avif" height="200" width="200" alt="logo menu monstrueux / en partenariat avec Lethal Company">
         <p>Après l'explostion de popularité du jeu vidéo "Lethal Company", ce menu est menu créé par nos cuisinier en association avec le site <a href="/partenaire.html" aria-label="Lien pour la page partenaire"> <strong> Lethal Company </strong> qui est notre partenaire.</p>
       </article>
     </section>
     
+    <!--ancre de déplacement-->
     <a id="ancre" href="#">⬆</a>
 
+    <!-- Bas de la page-->
     <footer>
       <p>Ceci est un projet fait par des étudiants du BUT INFO d’Aix à un but éducatif. Ce restaurant est purement fictif, si vous cherchez un vrai kebab proche, nous vous conseillons cette adresse : <a href="https://maps.app.goo.gl/8FoHPbuMouMdJuz48"> <strong>Le Campus</strong> </a></p>
       <a href="https://iut.univ-amu.fr/fr/formations/bachelor-universitaire-de-technologie/but-informatique/but-info-aix" target="_blank">
