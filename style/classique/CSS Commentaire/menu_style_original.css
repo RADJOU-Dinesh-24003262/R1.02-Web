@@ -134,6 +134,8 @@ article img, video {
     flex-shrink: 1;
     border-radius: 37px;
     /*background: url(<path-to-image>) lightgray 50% / cover no-repeat;*/
+    transform: scale(0.9);
+    transition: .3s ease-in-out;
 }
 
 h2{
@@ -148,6 +150,10 @@ article p {
     max-width: 250px;
     flex-shrink: 0;
     margin: 2px 2px 2px 2px;
+}
+
+article:hover img, article:hover video{
+    transform: scale(1.05);
 }
 
 section a{
